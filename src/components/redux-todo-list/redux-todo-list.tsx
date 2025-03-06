@@ -14,6 +14,7 @@ export const ReduxTodoList: React.FC = () => {
 
   // Get todos from Redux store
   const todos = useSelector((state: RootState) => state.todos.items);
+  
   // Get dispatch function
   const dispatch = useDispatch();
 

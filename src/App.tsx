@@ -9,7 +9,7 @@ import {
 function App() {
   return (
     <div className="App">
-      <h1>State Management Comparison</h1>
+      <h1>Zustand vs Redux</h1>
 
       <section>
         <h2>Zustand Implementation</h2>
